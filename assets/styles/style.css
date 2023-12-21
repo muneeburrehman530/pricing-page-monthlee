@@ -1,0 +1,448 @@
+/* adding fonts galcial indefference */
+@font-face {
+  font-family: "Glacial Indifference";
+  src: url("../fonts/GlacialIndifference-Bold.woff2") format("woff2"),
+    url("../fonts/GlacialIndifference-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Glacial Indifference";
+  src: url("../fonts/GlacialIndifference-Regular.woff2") format("woff2"),
+    url("../fonts/GlacialIndifference-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* =========================================================== */
+/* Global Classes and Font Size decelatation and global buttons*/
+html,
+body {
+  font-family: "Glacial Indifference" !important;
+  font-size: 12pt !important;
+  scroll-behavior: smooth;
+}
+h1 {
+  /* 48px */
+  font-size: 3rem;
+}
+h2 {
+  /* 36px */
+  font-size: 2.25rem;
+}
+h3 {
+  /* 32px */
+  font-size: 32px;
+}
+h4 {
+  /* 28px */
+  font-size: 1.75rem;
+}
+h5 {
+  /* 24px */
+  font-size: 1.5rem;
+}
+h6 {
+  /* 20px */
+  font-size: 1.25rem;
+}
+h6 {
+  /* 16px */
+  font-size: 1rem;
+}
+.card-gap {
+  gap: 0 4rem;
+}
+.card-gap h2 {
+font-weight: 600;
+line-height: 36px;
+} 
+.text-green{
+  color: green;
+}
+
+.color-primary {
+  color: var(--dark-green);
+}
+.color-secondary {
+  color: #ff8750;
+}
+.color-ordinary {
+  color: var(--dark-yellow);
+}
+.p-t-5 {
+  padding-top: 5px;
+}
+/* Globnal button */
+.navbar-toggler {
+  border: 1px solid green !important;
+  color:#ff8750;
+outline: none !important;}
+.navbar-toggler:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+.button-learn-more button {
+  width: 22.5%;
+  padding: 0.5rem;
+  border: 2px solid var(--dark-green);
+  background-color: var(--dark-green);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 2.5rem;
+  transition: all 0.4s ease-in-out !important;
+}
+.button-learn-more button a {
+  padding: 0.9rem 4.3rem;
+  text-decoration: none !important;
+  color: var(--white);
+
+}
+.button-learn-more button a:hover {
+
+  color: var(--dark-green);
+
+}
+.button-learn-more button:hover {
+  background-color: transparent;
+  border: 2px solid var(--dark-green);
+  color: var(--dark-green);
+
+
+}
+
+/* typography */
+:root {
+  --white: #fff;
+  --dark-green: #085045;
+  --dark-sky: #83ceca;
+  --dark-yellow: #fdcd6b;
+  --dark-orange: #f6a986;
+  --light-dark: #f2f0ed;
+  --gray-light: #EDECE9;
+  --functionality-card-bg: #B3DEDC;
+  --sky-bg: #EBFBF9;
+
+}
+
+/* header */
+nav {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: var(--dark-green) !important;
+  text-decoration: none;
+  padding: 0 1rem !important;
+}
+.nav-link:hover {
+  color: #ff8750 !important;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hero section */
+.hero-section {
+  position: relative;
+  background-image: url("../images/hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem 0 4rem 0;
+}
+.overlay {
+  background:#083200e8; ;
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  z-index: -11;
+
+}
+.head-title h2 {
+  padding-bottom: 1rem !important;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 1.5rem;
+  font-weight: 600;
+  color: var(--white);
+}
+.head-title h6 {
+color:var(--gray-light);
+font-weight: 400;
+line-height: 24px;
+} 
+
+/* pricing cards section */
+.pricing-cards-section {
+  background-image: url("../images/cards-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 4.9rem;
+
+}
+
+
+.card-pricing {
+
+  box-shadow: 2px 2px 19px -11px green;
+  width: 36% !important;
+}
+.pricing-card-bg-orange {
+  padding: 2.4rem 0;
+  background-color: var(--dark-orange);
+}
+.pricing-card-bg-yellow {
+  padding: 2.4rem 0;
+  background-color: var(--dark-yellow);
+
+}
+.icon img {
+  box-shadow: 2px 4px 12px -3px var(--dark-green);
+  border: 1px solid var(--dark-green);
+  margin-top: -1.3rem;
+}
+.price-num h1 {
+  color: var(--dark-green);
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.price-num h5 {
+  font-weight: 700;
+  color: var(--dark-green);
+  line-height: 33px;
+}
+.price-num h3 {
+  font-weight: 700;
+  color: var(--dark-green);
+  line-height: 38px;
+}
+
+/* Functionality section  */
+.functionality-section {
+  padding: 3.5rem 0 2rem 0;
+  background-image: url("../images/functionality-card-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3.5rem;
+
+
+}
+.functionality-section h2 {
+font-weight: 700;
+
+}
+.functionality-card {
+  background-color: var(--functionality-card-bg);
+  width: 32% !important;
+  box-sizing: border-box;
+  box-shadow: 2px 3px 11px -4px rgb(29, 32, 29);
+  transition: all 0.4s ease-in-out !important;
+}
+.functionality-card-height {
+  height: 340px;
+}
+.card-data-wrapper {
+  padding: 1.8rem 1.2rem;
+}
+.card-data-wrapper img {
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  background-color: var(--white);
+border-radius: 50%;
+}
+.card-data-wrapper h6 {
+  font-weight: 700;
+  line-height: 28px;
+  color: var(--dark-green);
+}
+.functionality-card:hover {
+  background-color: var(--white);
+}
+.functionality-card:hover img {
+  background-color: var(--functionality-card-bg);
+}
+
+
+/* enterprise cards section*/
+/* this section is same as the first pricing cards section so same css */
+
+/*detailed services section */
+.services-section {
+  padding-top: 3.06rem !important;
+  padding-bottom: 6.1rem !important;
+}
+
+.services-section h2 {
+  padding-bottom: 3.5rem;
+  font-weight: 700;
+  line-height: 49px;
+}
+.services-section h5 {
+  font-weight: 700;
+  line-height: 27px;
+}
+
+/* are-you-a-larger-company second last section */
+.are-you-a-larger-company {
+  background-color: var(--sky-bg);
+  padding-top: 4.5rem;
+  padding-bottom: 4.1rem;
+}
+
+.larger-company-text-wrapper h3 {
+  font-weight: 700;
+  line-height: 43px;
+  padding: 0 10rem;
+}
+/* Footer section */
+
+.footer-section {
+  position: relative;
+  background-image: url("../images/hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 0 1rem 0;
+}
+hr:not([size]) {
+  background: white;
+}
+.footer-link {
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--white);
+  transition: all 0.2s;
+}
+.footer-link:hover{
+  
+  color: var(--dark-orange);
+}
+.footer-section .i-icon {
+  color: var(--white);
+  padding-right: 5px;
+}
+.footer-section .i-icon:hover {
+  color: var(--dark-orange);
+}
+.social-media {
+  font-size: 1.5rem;
+  color: var(--white);
+  padding-left: 0.8rem;
+transition: all 0.2s;
+padding-bottom: 1rem;
+}
+.social-media:hover {
+  color: var(--dark-orange)
+  
+}
+.all-right-reserved {
+  color: var(--dark-yellow);
+}
+
+/* Responsive for all screens */
+/* ============================= */
+/* functionality card section button adjustment*/
+
+/* 1024 break points  */
+
+@media(max-width: 1024px) {
+  .button-learn-more button {
+    width: auto;
+  }
+  .functionality-card{
+    width: 48% !important;
+  
+  }
+  .card-pricing {
+    width: 40% !important;
+  }
+
+}
+ /* 991 break points */
+
+@media(max-width: 991px) { 
+.nav-item {
+  padding: 10px;
+}
+}
+/* 768 break points */
+
+@media(max-width: 767px) {
+  .nav-item {
+    /* padding: 0.8rem; */
+    background-color:#ff8750 ;
+border-bottom: 1px solid var(--dark-green); 
+  }
+  .nav-link {
+    font-size: 1rem !important;
+    font-weight: 600;
+    color: var(--white) !important;
+  }
+  .nav-link:hover {
+    color: #327c07 !important;
+  }
+
+  .functionality-card{
+    width: 95% !important;
+   margin: auto;
+  }
+  .pricing-cards-section {
+padding-bottom: 2rem ;
+  }
+  .card-pricing {
+    width: 95% !important;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  .functionality-section {
+    padding-top: 2rem;
+  }
+  .larger-company-text-wrapper h3 {
+    padding: 0 !important;
+  }
+  .are-you-a-larger-company {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  } 
+  .button-learn-more button {
+width: 70%;
+    /*     
+margin-top: 1rem;
+padding:  0.6rem 1.5rem;
+  } */
+
+      .footer-section {
+        padding-top: 2rem !important;
+      }
+
+}
+}
+
+@media(max-width: 575px) {
+  .services-section {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .larger-company-text-wrapper h3 {
+    font-size: 20px;
+
+    font-weight: 600;
+    line-height: 36px;
+  }
+}
+
+
+
+
+
